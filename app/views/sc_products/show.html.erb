@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @sc_product.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @sc_product.price %>
+</p>
+
+<%= link_to 'Edit', edit_sc_product_path(@sc_product) %> |
+<%= link_to 'Back', sc_products_path %>

@@ -1,0 +1,2 @@
+module RProductsHelper
+end
